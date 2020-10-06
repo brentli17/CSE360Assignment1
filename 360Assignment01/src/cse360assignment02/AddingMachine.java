@@ -2,7 +2,7 @@ package cse360assignment02;
 
 public class AddingMachine {
   private int total;
-  private String history;
+  private String history = "0";
   
   public AddingMachine () {
     total = 0;  // not needed - included for clarity
